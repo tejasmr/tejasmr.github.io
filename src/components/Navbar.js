@@ -2,7 +2,6 @@ import {
     GlobalNavigationBar, 
     GlobalNavigationBarLink, 
     GlobalNavigationBarRegion, 
-    GlobalNavigationBarLabel,
     DynamicIcon
 } from "@salesforce/design-system-react";
 import React from "react";
@@ -18,7 +17,6 @@ import {
     projectsLink,
     contactLink
 } from '../utils/metadata';
-import UnderDevelopment from "./UnderDevelopment";
 
 const Navbar = (props) => {
     const [activeElement, setActiveElement] = React.useState(aboutElement);
@@ -27,7 +25,7 @@ const Navbar = (props) => {
         <>
             <GlobalNavigationBar>
                 <GlobalNavigationBarRegion region="primary" navigation>
-                    <DynamicIcon title="Tejas M R" variant="waffle"/> 
+                    <DynamicIcon style={{marginRight: "50px"}} title="Tejas M R" variant="waffle"/> 
                     <GlobalNavigationBarLink
                         label="Tejas M R" 
                         onClick={() => {
