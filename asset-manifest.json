@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.f2c68be3.js",
+    "main.css": "/static/css/main.ff2fcc8d.css",
+    "main.js": "/static/js/main.d59f23d4.js",
     "static/js/787.0ea259e9.chunk.js": "/static/js/787.0ea259e9.chunk.js",
+    "static/media/bg-info@2x.png": "/static/media/bg-info@2x.59f1b6c33ae7563bceea.png",
+    "static/media/banner-group-public-default.png": "/static/media/banner-group-public-default.502c03c164b28f5548b7.png",
+    "static/media/banner-user-default.png": "/static/media/banner-user-default.d4251dfc5e5f7164ce26.png",
+    "static/media/banner-brand-default.png": "/static/media/banner-brand-default.853be605e8ad0eac7451.png",
+    "static/media/einstein-figure.svg": "/static/media/einstein-figure.160b004e87362bdab0f7.svg",
+    "static/media/einstein-header-background.svg": "/static/media/einstein-header-background.89d89981681a11da4aea.svg",
     "index.html": "/index.html",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.f2c68be3.js.map": "/static/js/main.f2c68be3.js.map",
+    "static/media/logo-noname.svg": "/static/media/logo-noname.6481e0b2155ed5945f02.svg",
+    "main.ff2fcc8d.css.map": "/static/css/main.ff2fcc8d.css.map",
+    "main.d59f23d4.js.map": "/static/js/main.d59f23d4.js.map",
     "787.0ea259e9.chunk.js.map": "/static/js/787.0ea259e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.f2c68be3.js"
+    "static/css/main.ff2fcc8d.css",
+    "static/js/main.d59f23d4.js"
   ]
 }
