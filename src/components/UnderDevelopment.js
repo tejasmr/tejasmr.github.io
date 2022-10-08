@@ -1,5 +1,5 @@
 import React from 'react'
-import { AlertContainer, Alert, Icon, IconSettings } from '@salesforce/design-system-react';
+import { Alert, Icon } from '@salesforce/design-system-react';
 import { useNavigate } from 'react-router-dom';
 
 export default function UnderDevelopment() {
