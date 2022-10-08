@@ -1,9 +1,7 @@
 import React from 'react'
 import { Alert, Icon } from '@salesforce/design-system-react';
-import { useNavigate } from 'react-router-dom';
 
 export default function UnderDevelopment() {
-    const navigate = useNavigate();
     const [isOpen, setIsOpen] = React.useState(true);
     return (
         <>

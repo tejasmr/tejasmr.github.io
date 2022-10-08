@@ -1,7 +1,9 @@
 import { 
     GlobalNavigationBar, 
     GlobalNavigationBarLink, 
-    GlobalNavigationBarRegion
+    GlobalNavigationBarRegion, 
+    GlobalNavigationBarLabel,
+    DynamicIcon
 } from "@salesforce/design-system-react";
 import React from "react";
 import { useNavigate } from "react-router-dom";
@@ -25,6 +27,7 @@ const Navbar = (props) => {
         <>
             <GlobalNavigationBar>
                 <GlobalNavigationBarRegion region="primary" navigation>
+                    <DynamicIcon title="Tejas M R" variant="waffle"/> 
                     <GlobalNavigationBarLink
                         label="Tejas M R" 
                         onClick={() => {
