@@ -2,6 +2,11 @@ import React from 'react'
 
 export default function Projects() {
   return (
-    <div>Projects</div>
+    <>
+      <div id="projects" style={{ height: "700px" }}>
+        <div style={{ height: "39px" }}></div>
+        <p>Projects</p>
+      </div>
+    </>
   )
 }
