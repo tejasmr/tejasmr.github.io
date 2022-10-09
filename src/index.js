@@ -9,13 +9,11 @@ import '/node_modules/@salesforce-ux/design-system/assets/styles/salesforce-ligh
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
     <BrowserRouter>
     <IconSettings iconPath='/assets/icons'>
       <App/>
     </IconSettings>
     </BrowserRouter>
-  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
