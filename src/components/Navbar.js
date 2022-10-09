@@ -27,7 +27,7 @@ const Navbar = (props) => {
                 <GlobalNavigationBarRegion region="primary" navigation>
                     <DynamicIcon style={{marginRight: "50px"}} title="Tejas M R" variant="waffle"/> 
                     <GlobalNavigationBarLink
-                        label="Tejas M R" 
+                        label="tejasmr" 
                         onClick={() => {
                             setActiveElement(aboutElement);
                             navigate(aboutLink);
