@@ -13,7 +13,7 @@ export default function UnderDevelopment() {
 							name="thunder"
                         />}
                         labels={{
-                            heading: 'This website is still under development. Thank you for your patience.',
+                            heading: 'This website is still under testing. Thank you for your patience.',
                             headingLink: 'Visit Github',
                         }}
                         onClickHeadingLink={() => {

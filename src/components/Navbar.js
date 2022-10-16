@@ -59,16 +59,6 @@ const Navbar = (props) => {
                             window.location.href = "#projects";
                         }}
                     />
-                    <GlobalNavigationBarLink 
-                        active={activeElement === contactElement}
-                        label="Contact" 
-                        href="#contact"
-                        id={contactElement} 
-                        onClick={() => {
-                            setActiveElement(contactElement);
-                            window.location.href = "#contact";
-                        }}
-                    />
                 </GlobalNavigationBarRegion>
             </GlobalNavigationBar>
         </div>

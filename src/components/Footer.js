@@ -5,7 +5,7 @@ export default function Footer() {
     <>
       <div id="footer">
         <div style={{ paddingTop: "5px", paddingBottom: "5px", display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", color: "white", backgroundColor: "#16325c" }}>
-          <p style={{ paddingRight: "20px" }}>© 2022 by Tejas M R</p>
+          <p style={{ marginLeft: "10px", marginRight: "10px" }}>© 2022 by Tejas M R</p>
           <ButtonGroup>
             <Button style={{ backgroundColor: "#0073b1", color: "white" }} onClick={() => {
               window.location.href = "https://linkedin.com/in/tejas-m-r";
@@ -23,7 +23,7 @@ export default function Footer() {
               <i style={{ fontSize: "20px", paddingTop: "3px", paddingBottom: "3px" }} class='fa fa-twitter'></i>
             </Button>
           </ButtonGroup>
-          <p style={{ paddingLeft: "20px" }}>Email: <a href="mailto: tejasmr@outlook.com">tejasmr@outlook.com</a>
+          <p style={{ marginLeft: "10px", marginRight: "10px" }}>Email: <a href="mailto: tejasmr@outlook.com">tejasmr@outlook.com</a>
           </p>
         </div>
       </div>
