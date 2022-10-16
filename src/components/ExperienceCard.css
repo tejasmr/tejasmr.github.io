@@ -1,0 +1,17 @@
+@media screen and (max-width: 570px) {
+    #experienceCard {
+        flex-direction: column;
+    }
+    #experienceCard > div {
+        flex: 0px;
+    }
+}
+
+@media screen and (min-width: 570px) {
+    #experienceCard {
+        flex-direction: row;
+    }
+    #experienceCard > div {
+        flex: 350px;
+    }
+}

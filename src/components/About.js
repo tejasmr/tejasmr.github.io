@@ -77,20 +77,20 @@ export default function About() {
                     <div className="slds-m-top--xx-large"></div>
                 </div>
 
-                <div className="slds-box-center" style={{ margin: "1rem" }}>
-                    <div className="slds-box slds-text-align_center" style={{ maxWidth: "600px", backgroundColor: "#16325c", borderRadius: "10px" }}>
+                <div className="slds-box-center" style={{ margin: "1rem", marginTop: "3rem" }}>
+                    <div className="slds-box slds-text-align_center" style={{ maxWidth: "600px", borderRadius: "10px", boxShadow: "4px 3px 8px 1px #969696" }}>
 
-                        <div style={{ padding: "1rem 0.5rem 0.5rem 0.5rem" }} className="slds-text-color_inverse slds-p-top--x-large slds-text-heading--large">I like to</div>
-                        <div style={{ padding: "0.5rem 1.5rem 0.5rem 1.5rem", fontSize: "1rem" }} className='slds-text-color_inverse slds-text-heading--regular slds-p-bottom--x-large'>
+                        <div style={{ padding: "1rem 0.5rem 0.5rem 0.5rem", color: "#16325c" }} className="slds-text-color_inverse slds-p-top--x-large slds-text-heading--large">I like to</div>
+                        <div style={{ padding: "0.5rem 1.5rem 0.5rem 1.5rem", fontSize: "1rem", color: "#16325c" }} className='slds-text-color_inverse slds-text-heading--regular slds-p-bottom--x-large'>
                             solve engineering and business problems with the best technologies available
                         </div>
 
-                        <Button style={{ margin: "0.5rem 0.5rem 0.5rem 0rem" }} label="View my Resumé" href="#resume"></Button>
+                        <Button style={{ margin: "0.5rem 0.5rem 0.5rem 0rem", color: "#16325c", boxShadow: "2px 2px 2px 1px #969696" }} label="View my Resumé" href="#resume"></Button>
 
-                        <Button style={{ margin: "0.5rem 0rem 0.5rem 0.5rem" }} label="My Projects" href="#projects"></Button>
+                        <Button style={{ margin: "0.5rem 0rem 0.5rem 0.5rem", color: "#16325c", boxShadow: "2px 2px 2px 1px #969696" }} label="My Projects" href="#projects"></Button>
 
                         <div style={{ padding: "0.5rem 1.1rem 1rem 1.1rem" }}>
-                            <div className="slds-text-color_inverse" style={{ fontWeight: "normal" }}>
+                            <div className="slds-text-color_inverse" style={{ fontWeight: "normal", color: "#16325c" }}>
                                 I am working as a Software Engineer at Endur Shell Energy. I am
                                 interested in using various technologies to solve problems. I
                                 have been contributing to open source projects like opencv and

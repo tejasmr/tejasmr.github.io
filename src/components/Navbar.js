@@ -15,7 +15,7 @@ import {
 const Navbar = (props) => {
     const [activeElement, setActiveElement] = React.useState(aboutElement);
     return (
-        <div id="navbar">
+        <div id="navbar" style={{zIndex:"100"}}>
             <GlobalNavigationBar>
                 <GlobalNavigationBarRegion region="primary" navigation>
                     <DynamicIcon style={{marginRight: "50px"}} title="Tejas M R" variant="waffle"/> 

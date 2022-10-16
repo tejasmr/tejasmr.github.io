@@ -1,0 +1,17 @@
+@media screen and (max-width: 570px) {
+    #educationCard {
+        flex-direction: column;
+    }
+    #educationCard > div {
+        flex: 0px;
+    }
+}
+
+@media screen and (min-width: 570px) {
+    #educationCard {
+        flex-direction: row;
+    }
+    #educationCard > div {
+        flex: 350px;
+    }
+}

@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import About from './components/About';
-import Contact from './components/Contact';
+import Footer from './components/Footer';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 
@@ -16,7 +16,8 @@ function App() {
       <About />
       <Resume />
       <Projects />
-      <Contact />
+      <div style={{height: "39px"}}></div>
+      <Footer />
     </>
   );
 }
