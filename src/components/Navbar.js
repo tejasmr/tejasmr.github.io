@@ -8,11 +8,10 @@ import React from "react";
 import {
     aboutElement,
     resumeElement,
-    projectsElement,
-    contactElement
+    projectsElement
 } from '../utils/metadata';
 
-const Navbar = (props) => {
+const Navbar = () => {
     const [activeElement, setActiveElement] = React.useState(aboutElement);
     return (
         <div id="navbar" style={{zIndex:"100"}}>

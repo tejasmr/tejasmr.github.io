@@ -15,7 +15,7 @@ export default function Projects() {
             className="slds-text-color_inverse slds-p-top--x-large slds-text-heading--large">
             Projects
           </div>
-          <div className="slds-text-color_inverse" style={{ fontWeight: "normal", color: "#16325c", marginTop: "1rem", maxWidth: "500px", textAlign: "center" }}>
+          <div className="slds-text-color_inverse" style={{ fontSize: "14px", fontWeight: "normal", color: "#16325c", marginTop: "1rem", maxWidth: "500px", textAlign: "center" }}>
             I have worked on projects funded by IISc and IEEE. I have also 
             contributed to open-source projects like opencv and aws-cdk. 
             I have created and published multiple libraries and packages 
