@@ -85,9 +85,15 @@ export default function About() {
                             solve engineering and business problems with the best technologies available
                         </div>
 
-                        <Button style={{ margin: "0.5rem 0.5rem 0.5rem 0rem", color: "#16325c", boxShadow: "2px 2px 2px 1px #969696" }} label="View my Resumé" href="#resume"></Button>
+                        <Button 
+                            style={{ margin: "0.5rem 0.5rem 0.5rem 0rem", color: "#16325c", boxShadow: "2px 2px 2px 1px #969696" }} 
+                            label="View my Resumé" 
+                            onClick={() => window.location.href="#resume"}/>
 
-                        <Button style={{ margin: "0.5rem 0rem 0.5rem 0.5rem", color: "#16325c", boxShadow: "2px 2px 2px 1px #969696" }} label="My Projects" href="#projects"></Button>
+                        <Button 
+                            style={{ margin: "0.5rem 0rem 0.5rem 0.5rem", color: "#16325c", boxShadow: "2px 2px 2px 1px #969696" }} 
+                            label="My Projects" 
+                            onClick={() => window.location.href="#projects"}/>
 
                         <div style={{ padding: "0.5rem 1.1rem 1rem 1.1rem" }}>
                             <div className="slds-text-color_inverse" style={{ fontSize: "14px", fontWeight: "normal", color: "#16325c" }}>
