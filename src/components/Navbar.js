@@ -20,10 +20,10 @@ const Navbar = () => {
                     <DynamicIcon style={{marginRight: "50px"}} title="Tejas M R" variant="waffle"/> 
                     <GlobalNavigationBarLink
                         label="tejasmr" 
-                        href="#about"
                         onClick={() => {
                             setActiveElement(aboutElement);
                             window.scrollTo(0, 0);
+                            window.location.href="";
                         }}
                     />
                 </GlobalNavigationBarRegion>
@@ -32,10 +32,10 @@ const Navbar = () => {
                         active={activeElement === aboutElement}
                         label="About" 
                         id={aboutElement} 
-                        href="#about"
                         onClick={() => {
                             setActiveElement(aboutElement);
                             window.scrollTo(0, 0);
+                            window.location.href="";
                         }}
                     />
                     <GlobalNavigationBarLink 
